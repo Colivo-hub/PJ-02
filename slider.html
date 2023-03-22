@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Slider</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="slider.css">
+</head>
+<body>	
+	<main>
+		<section class="section2">
+			<div class="container_section2">
+				<div class="wrapper_list"> 
+					<ul class="list_of_projects">
+						<li onclick="setEntity(0)" class="link_list_item active">Rostov-on-Don, Admiral</li>
+						<li onclick="setEntity(1)" class="link_list_item">Sochi Thieves</li>
+						<li onclick="setEntity(2)" class="link_list_item">Rostov-on-Don Patriotic</li>
+					</ul>
+				</div>
+				<div class="completed_projects">
+					<div class="projects_description">
+						<h2 class="title comp_project">Completed projects</h2>
+						<p class="paragraph_description">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families.</p>
+						<div class="wrapper_project_characteristics">
+							<div class="wrapper_characteristics">
+								<h3 class="subtitle decr_parameter">City:</h3>
+								<span class="name_characteristics_item">Rostov-on-Don LCD admiral</span>
+							</div>
+							<div class="wrapper_characteristics">
+								<h3 class="subtitle decr_parameter">apartment area:</h3>
+								<span class="name_characteristics_item">81 m2</span>
+							</div>
+							<div class="wrapper_characteristics">
+								<h3 class="subtitle decr_parameter">Repair time:</h3>
+								<span class="name_characteristics_item">3.5 months</span>
+							</div>
+							<div class="wrapper_characteristics">
+								<h3 class="subtitle decr_parameter">Repair Cost:</h3>
+								<span class="name_characteristics_item">Upon request</span>
+							</div>
+						</div>
+						<div class="wrapper_scroll">
+							<!-- <img src="Group 2.18.svg"> -->
+                            <svg width="206" height="14" viewBox="0 0 206 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M199.045 0L205.683 6.63804L199.045 13.2761L198.098 12.3285L203.788 6.63804L198.098 0.947567L199.045 0Z" fill="white"/>
+                                <path class="next" height="5" fill-rule="evenodd" clip-rule="evenodd" d="M204.736 7.30784L164.228 7.30784L164.228 5.96777L204.736 5.96778L204.736 7.30784Z" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.63807 13.2761L2.29917e-05 6.63808L6.63807 3.80641e-05L7.58563 0.947606L1.89516 6.63808L7.58563 12.3286L6.63807 13.2761Z" fill="white"/>
+                                <path class="prev" height="5" fill-rule="evenodd" clip-rule="evenodd" d="M0.947579 5.96828L41.4556 5.96829L41.4556 7.30835L0.947578 7.30834L0.947579 5.96828Z" fill="white"/>
+                                <rect onclick="setEntity(0)" class="round active" x="70.9528" y="1.4563" width="9.56667" height="9.56667" rx="4.78333" fill="grey" />
+                                <rect onclick="setEntity(1)" class="round" x="98.0583" y="1.45654" width="9.56667" height="9.56667" rx="4.78333" fill="grey" />
+                                <rect onclick="setEntity(2)" class="round" x="125.164" y="1.45654" width="9.56667" height="9.56667" rx="4.78333" fill="grey" />
+                            </svg>
+						</div>
+					</div>
+					<div class="projects_picture">
+							<div class="pics_CP"></div>
+					</div>
+			</div>
+		</section>
+	</main>
+    <script src="slider.js"></script>
+
+</body>
+</html>
